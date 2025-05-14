@@ -35,10 +35,10 @@ const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed w-full z-50 transition-all duration-300 left-0 right-0 pt-0 ${
+      className={`fixed w-full z-50 transition-all duration-300 left-0 right-0 top-0 pt-0 m-0 ${
         scrolled 
-          ? 'bg-white/10 dark:bg-gray-900/70 backdrop-blur-xl shadow-lg'
-          : 'bg-white/10 dark:bg-gray-900/60 backdrop-blur-lg'
+          ? 'bg-white/01 dark:bg-gray-900/01 backdrop-blur-xl shadow-lg'
+          : 'bg-white/01 dark:bg-gray-900/01 backdrop-blur-xl'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">

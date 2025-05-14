@@ -75,15 +75,17 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen transition-colors duration-300 bg-white dark:bg-gray-900">
+    <div className="min-h-screen transition-colors duration-300 bg-white dark:bg-gray-900 pt-0 m-0">
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
-      <Hero />
-      <Skills />
-      <Projects />
-      <Education />
-      <Trainings />
-      <Certifications />
-      <Contact />
+      <div className="pt-16">
+        <Hero />
+        <Skills />
+        <Projects />
+        <Education />
+        <Trainings />
+        <Certifications />
+        <Contact />
+      </div>
     </div>
   )
 }
