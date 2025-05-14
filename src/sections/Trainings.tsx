@@ -114,13 +114,13 @@ const TrainingCard = ({ training }: { training: typeof trainings[0] }) => {
 
 const Trainings = () => {
   return (
-    <section id="trainings" className="py-20 bg-gradient-to-b from-white to-primary-50">
+    <section id="trainings" className="py-20 bg-gradient-to-b from-white to-primary-50 dark:from-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-4">
             Trainings
           </h2>
-          <p className="mt-4 text-primary-600">
+          <p className="mt-4 text-primary-600 dark:text-gray-300">
             Professional training and development courses I have completed.
           </p>
         </div>

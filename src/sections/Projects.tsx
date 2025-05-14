@@ -62,7 +62,7 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5 }}
-      className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
+      className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
     >
       <div className="relative group">
         <img
@@ -75,32 +75,32 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 bg-white rounded-full hover:bg-primary-50 transition-colors"
+            className="p-3 bg-white dark:bg-gray-700 rounded-full hover:bg-primary-50 dark:hover:bg-gray-600 transition-colors"
           >
-            <CodeBracketIcon className="w-6 h-6 text-primary-600" />
+            <CodeBracketIcon className="w-6 h-6 text-primary-600 dark:text-accent-400" />
           </a>
           <a
             href={project.demo}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 bg-white rounded-full hover:bg-primary-50 transition-colors"
+            className="p-3 bg-white dark:bg-gray-700 rounded-full hover:bg-primary-50 dark:hover:bg-gray-600 transition-colors"
           >
-            <ArrowTopRightOnSquareIcon className="w-6 h-6 text-primary-600" />
+            <ArrowTopRightOnSquareIcon className="w-6 h-6 text-primary-600 dark:text-accent-400" />
           </a>
         </div>
       </div>
 
       <div className="p-6">
-        <h3 className="text-2xl font-semibold text-primary-800 mb-3">
+        <h3 className="text-2xl font-semibold text-primary-800 dark:text-gray-100 mb-3">
           {project.title}
         </h3>
-        <p className="text-primary-600 mb-4">
+        <p className="text-primary-600 dark:text-gray-300 mb-4">
           {project.description}
         </p>
 
         <div className="mb-4">
-          <h4 className="text-sm font-semibold text-primary-700 mb-2">Key Features:</h4>
-          <ul className="list-disc list-inside text-primary-600 space-y-1">
+          <h4 className="text-sm font-semibold text-primary-700 dark:text-gray-200 mb-2">Key Features:</h4>
+          <ul className="list-disc list-inside text-primary-600 dark:text-gray-300 space-y-1">
             {project.features.map((feature) => (
               <li key={feature}>{feature}</li>
             ))}
@@ -111,7 +111,7 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
           {project.stack.map((tech) => (
             <span
               key={tech}
-              className="px-3 py-1 bg-primary-50 text-primary-600 text-sm rounded-full"
+              className="px-3 py-1 bg-primary-50 dark:bg-gray-700 text-primary-600 dark:text-gray-300 text-sm rounded-full"
             >
               {tech}
             </span>
@@ -124,13 +124,13 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 bg-gradient-to-b from-primary-50 to-white">
+    <section id="projects" className="py-20 bg-gradient-to-b from-primary-50 to-white dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-accent-600 dark:text-accent-400 mb-4">
             Projects
           </h2>
-          <p className="mt-4 text-primary-600">
+          <p className="mt-4 text-primary-600 dark:text-gray-300">
             Here are some of my recent projects that showcase my skills and experience.
           </p>
         </div>

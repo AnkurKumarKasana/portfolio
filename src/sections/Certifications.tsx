@@ -102,7 +102,7 @@ const Certifications = () => {
   });
 
   return (
-    <section id="certifications" className="py-20">
+    <section id="certifications" className="py-20 bg-gradient-to-b from-primary-50 to-white dark:from-gray-900 dark:to-gray-800">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 20 }}
@@ -110,7 +110,7 @@ const Certifications = () => {
         transition={{ duration: 0.5 }}
         className="container mx-auto px-4"
       >
-        <h2 className="text-3xl font-bold text-primary-900 dark:text-primary-100 mb-8">
+        <h2 className="text-3xl font-bold text-primary-900 dark:text-gray-100 mb-8 text-center">
           Certifications
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
