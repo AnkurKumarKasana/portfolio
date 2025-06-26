@@ -5,15 +5,12 @@ const skillsData = {
   frontend: {
     title: "Frontend",
     skills: [
-      { name: "React Js", icon: "⚛️" },
-      { name: "Redux", icon: "🔄" },
-      { name: "Next Js", icon: "▲" },
       { name: "HTML", icon: "🌐" },
       { name: "CSS", icon: "🎨" },
       { name: "JavaScript", icon: "📜" },
-      { name: "Bootstrap", icon: "🅱️" },
-      { name: "Material UI", icon: "🎯" },
-      { name: "Websocket", icon: "🔌" },
+      { name: "React Js", icon: "⚛️" },
+      { name: "Redux", icon: "🔄" },
+      { name: "Next Js", icon: "▲" },
       { name: "Cloudinary", icon: "☁️" },
     ]
   },
@@ -30,15 +27,11 @@ const skillsData = {
   programming: {
     title: "Programming Languages",
     skills: [
-      { name: "Python", icon: "🐍" },
       { name: "C", icon: "©️" },
-      { name: "C++", icon: "➕" },
+      { name: "C++", icon: "©️➕➕" },
       { name: "Kotlin", icon: "🔒" },
       { name: "JavaScript", icon: "📜" },
-      { name: "TypeScript", icon: "🔒" },
-      { name: "JSON", icon: "📜" },
       { name: "XML", icon: "📜" },
-      { name: "YAML", icon: "📜" }
     ]
   }
 };
