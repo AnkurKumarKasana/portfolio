@@ -35,7 +35,7 @@ const projects = [
   },{
     title: 'Restaurant Website',
     description: 'A modern restaurant website with responsive design, online booking, and menu management. Built with React.js and modern web technologies for an optimal user experience.',
-    stack: ['React.js', 'Redux', 'Tailwind CSS', 'Node.js', 'MongoDB'],
+    stack: ['HTML', 'CSS', 'JavaScript'],
     image: '/rest.png',
     github: 'https://github.com/your-profile/restaurant-website',
     demo: 'https://restaurant-website-demo.com',
