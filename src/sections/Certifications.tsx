@@ -73,16 +73,15 @@ const certifications: Certification[] = [
     title: "AWS Certified Solutions Architect - Associate",
     organization: "Amazon Web Services (AWS)",
     date: "Aug 2023",
-    credentialId: "AWS-ASA-123456",
-    credentialUrl: "https://www.credly.com/badges/aws-certified-solutions-architect-associate",
+    credentialUrl: "https://www.credly.com/go/zU9xNSoa",
     imageUrl: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
   },
   {
     title: "Microsoft Certified: Azure Developer Associate",
     organization: "Microsoft",
     date: "Jun 2023",
-    credentialId: "MCAD-789012",
-    credentialUrl: "https://www.credly.com/badges/microsoft-certified-azure-developer",
+    credentialId: "CD84D394677637FF",
+    credentialUrl: "https://learn.microsoft.com/en-us/users/ankurkumarkasana-7527/credentials/certification/azure-administrator?tab=credentials-tab",
     imageUrl: "https://images.credly.com/size/680x680/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png"
   },
   {
