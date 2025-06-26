@@ -28,7 +28,7 @@ const skillsData = {
     title: "Programming Languages",
     skills: [
       { name: "C", icon: "©️" },
-      { name: "C++", icon: "©️➕➕" },
+      { name: "C++", icon: "➕" },
       { name: "Kotlin", icon: "🔒" },
       { name: "JavaScript", icon: "📜" },
       { name: "XML", icon: "📜" },
