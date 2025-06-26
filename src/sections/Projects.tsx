@@ -4,18 +4,18 @@ import { ArrowTopRightOnSquareIcon, CodeBracketIcon } from '@heroicons/react/24/
 
 const projects = [
   {
-    title: 'Restaurant Website',
-    description: 'A modern restaurant website with responsive design, online booking, and menu management. Built with React.js and modern web technologies for an optimal user experience.',
-    stack: ['React.js', 'Redux', 'Tailwind CSS', 'Node.js', 'MongoDB'],
-    image: '/rest.png',
-    github: 'https://github.com/your-profile/restaurant-website',
-    demo: 'https://restaurant-website-demo.com',
+    title: 'EduSmart App', 
+    description: 'An educational mobile application that helps students manage their studies, track progress, and access learning resources. Developed for Android using Kotlin and Android Studio.',
+    stack: ['Kotlin', 'Android Studio', 'Firebase', 'Room Database', 'Material Design'],
+    image: "eLearning-App.jpg",
+    github: 'https://github.com/AnkurKumarKasana/Smart-Edu',
+    demo: 'https://play.google.com/store/apps/details?id=com.yourdomain.edusmart',
     features: [
-      'Responsive design for all devices',
-      'Online table booking system',
-      'Dynamic menu management',
-      'User authentication',
-      'Admin dashboard'
+      'Study planner and scheduler',
+      'Progress tracking and analytics',
+      'Learning resource management',
+      'Offline access to materials',
+      'Push notifications for reminders'
     ]
   },
   {
@@ -32,20 +32,19 @@ const projects = [
       'Containerized deployment',
       'CI/CD pipeline'
     ]
-  },
-  {
-    title: 'EduSmart App',
-    description: 'An educational mobile application that helps students manage their studies, track progress, and access learning resources. Developed for Android using Kotlin and Android Studio.',
-    stack: ['Kotlin', 'Android Studio', 'Firebase', 'Room Database', 'Material Design'],
-    image: "eLearning-App.jpg",
-    github: 'https://github.com/AnkurKumarKasana/Smart-Edu',
-    demo: 'https://play.google.com/store/apps/details?id=com.yourdomain.edusmart',
+  },{
+    title: 'Restaurant Website',
+    description: 'A modern restaurant website with responsive design, online booking, and menu management. Built with React.js and modern web technologies for an optimal user experience.',
+    stack: ['React.js', 'Redux', 'Tailwind CSS', 'Node.js', 'MongoDB'],
+    image: '/rest.png',
+    github: 'https://github.com/your-profile/restaurant-website',
+    demo: 'https://restaurant-website-demo.com',
     features: [
-      'Study planner and scheduler',
-      'Progress tracking and analytics',
-      'Learning resource management',
-      'Offline access to materials',
-      'Push notifications for reminders'
+      'Responsive design for all devices',
+      'Online table booking system',
+      'Dynamic menu management',
+      'User authentication',
+      'Admin dashboard'
     ]
   },
 ];
