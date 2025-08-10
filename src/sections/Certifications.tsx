@@ -77,7 +77,7 @@ const certifications: Certification[] = [
     imageUrl: "https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
   },
   {
-    title: "Microsoft Certified: Azure Developer Associate",
+    title: "Microsoft Certified: Azure Administrator Associate",
     organization: "Microsoft",
     date: "Jun 2023",
     credentialId: "CD84D394677637FF",
