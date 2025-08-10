@@ -84,14 +84,7 @@ const certifications: Certification[] = [
     credentialUrl: "https://learn.microsoft.com/en-us/users/ankurkumarkasana-7527/credentials/certification/azure-administrator?tab=credentials-tab",
     imageUrl: "https://images.credly.com/size/680x680/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png"
   },
-  {
-    title: "Google Cloud Professional Cloud Architect",
-    organization: "Google Cloud",
-    date: "Apr 2023",
-    credentialId: "GCP-PCA-345678",
-    credentialUrl: "https://www.credential.net/google-cloud-professional-architect",
-    imageUrl: "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/28183008"
-  },
+
 ];
 
 const Certifications = () => {
