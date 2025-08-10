@@ -27,20 +27,20 @@ const CertificationCard: React.FC<CertificationCardProps> = ({ certification }) 
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5 }}
-      className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300"
+      className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg transition-all duration-300 text-center w-full max-w-sm"
     >
       <div className="mb-4">
         <img 
           src={certification.imageUrl} 
           alt={`${certification.title} certificate`} 
-          className="w-full h-48 object-contain mb-4 rounded-lg"
+          className="w-full h-48 object-contain mb-4 rounded-lg mx-auto"
         />
       </div>
-      <div className="flex items-start gap-4 mb-4">
+      <div className="flex flex-col items-center gap-3 mb-4">
         <div className="p-2 bg-accent-100 dark:bg-accent-900 rounded-lg">
           <AcademicCapIcon className="w-6 h-6 text-accent-600 dark:text-accent-400" />
         </div>
-        <div>
+        <div className="text-center">
           <h3 className="text-xl font-semibold text-primary-900 dark:text-primary-100">
             {certification.title}
           </h3>
@@ -105,10 +105,10 @@ const Certifications = () => {
         <h2 className="text-3xl font-bold text-primary-900 dark:text-gray-100 mb-8 text-center">
           Certifications
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
           {certifications.map((certification) => (
             <CertificationCard
-              key={certification.credentialId}
+              key={certification.title}
               certification={certification}
             />
           ))}
